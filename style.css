@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(217, 54%, 11%);
+    margin: 0%;
+    position: relative;
+}
+.container {
+    height: 400px;
+    background-color: hsl(216, 50%, 16%);
+    width: 320px;
+    height: 600px;
+    border-radius: 30px ;
+    position: absolute;
+    left: 570px;
+    top: 50px;
+}
+.image {
+    display: flex;
+    justify-content: center;
+}
+
+.first-image {
+
+    width: 250px;
+    height: 300px;
+    position: absolute;
+    top: 25px;
+    border-radius: 5px;
+}
+.second-image {
+    display: none;
+}
+.eye {
+    width: 50px;
+    height: 50px;
+}
+.image:hover .eye {
+    display: block;
+    background-color: hsl(178, 100%, 50%);
+    opacity: 0.6;
+    width: 250px;
+    height: 302px;
+    position: absolute;
+    left: 35px;
+    top: 25px;
+    border-radius: 5px;
+}
+.image:hover .second-image {
+    background-color: hsl(178, 100%, 50%);
+    display: block;
+    position: absolute;
+    left: 100px;
+    bottom: 130px;
+    opacity: 1;
+    cursor: pointer;
+
+}
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    color: white;
+    position: absolute;
+    bottom: 200px;
+    right: 90px;
+}
+h2:hover {
+    color:hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.description {
+    display: flex;
+    justify-content: center;
+}
+p {
+    color: hsl(215, 51%, 70%);
+    position: absolute;
+    bottom: 140px;
+    left: 40px;
+}
+p:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.icons {
+    position: absolute;
+    top: 460px;
+    left: 35px;
+}
+.numbers {
+    color: hsl(178, 100%, 50%);
+    position: relative;
+    left: 20px;
+    bottom: 42px;
+}
+.clock {
+    position: absolute;
+    left: 167px;
+    bottom: 124px;
+}
+.days {
+    color: hsl(215, 51%, 70%);
+    position: relative;
+    left: 190px;
+    bottom: 83px;
+
+}
+hr {
+    width: 275px;
+    position: relative;
+    bottom: 70px;
+    right: 8px;
+    border: solid 1px hsl(215, 32%, 27%);
+}
+.creation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+.avatar {
+    max-width: 10%;
+    border: solid 1px white;
+    border-radius: 20px;
+    position: absolute;
+    top: 80px;
+}
+.first-h {
+    position: absolute;
+    left: 75px;
+    top: 65px;
+    color:hsl(215, 32%, 27%) ;
+}
+.second-h {
+    color: white;
+    position: absolute;
+    left: 150px;
+    top: 65px;
+}
+.second-h:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
